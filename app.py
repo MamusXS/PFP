@@ -17,7 +17,7 @@ except Exception as e:
 
 # Load the historical match data
 try:
-    file_path = "/storage/emulated/0/Python/Football_Data/new_data/football_dataset.csv"
+    file_path = "football_dataset.csv"
     data = pd.read_csv(file_path)
 except Exception as e:
     print(f"Error loading dataset: {e}")
